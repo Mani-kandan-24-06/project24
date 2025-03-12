@@ -3,11 +3,11 @@
 	padding:0px;
 }
 html{
-	background:#0984e3;
+	background:linear-gradient(lightblue,BlanchedAlmond,Chocolate);
 }
 body{
 	background:white;
-	width:800px;
+	width:1000px;
 	height:1000px;
 	margin:0 auto;
 	padding:15px;
@@ -20,7 +20,7 @@ h1{
 	font-family:Galada;
 	padding:20px;
 	margin-bottom:25px;
-	color:#6c5ce7;
+	color:#261985;
 }
 table{
 	width:100%;
@@ -28,8 +28,8 @@ table{
 	margin-top:10px;
 }
 tr td,tr th{
-	border:1px solid #00b894;
-	padding:10px;
+	border:1px solid #19856f;
+	padding:20px;
 }
 
 
@@ -41,15 +41,19 @@ tr th{
 }
 
 a,input[type=submit]{
-	padding:8px;
+	/* padding:10px; */
+	padding:5px 30px 5px 30px;
 	color:white;
-	background:grey;
+	background:rgb(224, 37, 30);
 	border-radius:5px;
 	border:none;
+	text-decoration: none;
+	text-align: center;
+	
 }
 input[type=submit]{
 	margin-top:15px;
-	background:#00b894;
+	background:#25d115;
 	font-size:15px;
 }
 input[type=text]{
@@ -64,13 +68,15 @@ input[type=text]{
 
 label{
 	display:block;
-	margin-top:15px;
+	/* margin-top:15px; */
 	font-size:15px;
 	color:blue;
 	font-weight:bold;
+	text-align: center;
+
 }
 p a{
-	background:#2d3436;
+	background:#19e219;
 	text-decoration:none;
 }
 table td:nth-child(5) a{
@@ -78,11 +84,11 @@ table td:nth-child(5) a{
 }
 
 table td:nth-child(5) a{
-	background:#e84393;
+	background:#450be4;
 	text-decoration:none;
 	padding:5px 30px 5px 30px;
 }
 h4{
 	text-align:right;
-	color:#6c5ce7;
+	color:#040213;
 }

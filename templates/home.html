@@ -4,7 +4,7 @@
 		<link rel="stylesheet" href= "{{url_for('static',filename='style.css')}}">
 	</head>
 	<body>
-		<h1>User Management using MySql & Flask</h1>
+		<h1>User Management using MySQL & Flask</h1>
 		
 		<h4>
 			{% with messages = get_flashed_messages() %}
@@ -36,6 +36,6 @@
 					<td><a href="{{url_for('deleteUser',id=data.ID)}}">Delete</a></td>
 			    </tr>
 			{% endfor %}
-		</table
+			</table>
 	</body>
 </html>

@@ -29,7 +29,7 @@ def addUsers():
         con.execute(sql,[name,age,city])
         mysql.connection.commit()
         con.close()
-        flash("user Added Success")
+        flash("User Added Success!!!")
         return redirect(url_for("home"))
     return render_template("addUsers.html")
     
@@ -44,7 +44,7 @@ def editUser(id):
         con.execute(sql,[name,age,city,id])
         mysql.connection.commit()
         con.close()
-        flash("user Updated Success")
+        flash("User Updated Success!!!")
         return redirect(url_for("home"))
         con=mysql.connection.cursor()
     sql="select * from users where ID=%s"
@@ -59,7 +59,7 @@ def deleteUser(id):
     con.execute(sql,id)
     mysql.connection.commit()
     con.close()
-    flash("user Deleted Success")
+    flash("User Deleted Success!!!")
     return redirect(url_for("home"))
         
 if(__name__=='__main__'):
